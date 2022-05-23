@@ -9,7 +9,6 @@ const Numbers_char_code = arrayFromLowToHigh(48,57)
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
-  console.log("testing")
   
   return "characterAmount, includeUppercase, includeNumbers, includeSymbols, includeNumbers, includeSymbols";
 } 
