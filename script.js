@@ -7,7 +7,7 @@ var generateBtn = document.querySelector("#generate");
 function generatePassword() {
   console.log("testing")
   
-  return "I love you"
+  return "I love you";
 } 
 
 // Write password to the #password input
