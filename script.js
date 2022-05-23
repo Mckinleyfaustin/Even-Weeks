@@ -5,7 +5,7 @@
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
-  console.log(testing)
+  console.log("testing")
 
 } 
 
