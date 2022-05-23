@@ -1,9 +1,9 @@
 // Assignment code here
 
-const Uppercase_char_code = arrayFromLowToHigh(65,90)
-const Lowercase_char_code = arrayFromLowToHigh(97,122)
-const SpecialCharacters_char_code = arrayFromLowToHigh(33) .concat(arrayFromLowToHigh(35,37))
-const Numbers_char_code = arrayFromLowToHigh(48,57)
+const UPPERCASE_CHAR_CODE = arrayFromLowToHigh(65,90)
+const LOWERCASE_CHAR_CODE = arrayFromLowToHigh(97,122)
+const SPECIALCHARACTERS_CHAR_CODE = arrayFromLowToHigh(33) .concat(arrayFromLowToHigh(35,37))
+const NUMBERS_CHAR_CODE = arrayFromLowToHigh(48,57)
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
