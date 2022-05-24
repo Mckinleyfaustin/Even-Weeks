@@ -1,16 +1,20 @@
-// Assignment code here
 
-const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-const lowercase = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z];
-const uppercase = [A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z];
-const specialCharacters = [@,#,$,%];
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
+  const numbers = "0, 1, 2, 3, 4, 5, 6, 7, 8, 9";
+  const lowercase = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z";
+  const uppercase = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z";
+  const specialCharacters = "@,#,$,%";
   
-  return "numbers, lowercase, uppercase, specialCharacters";
+  let passwordLength = 16
+  let password = '';
+  
+  for (let i = 0; i < passwordLength; i++) {
+    randomNumbers = [Math.floor(Math.random() * characterAmount)]
+//     passwordCharacters.push(String.fromCharCode(characterCode))  return "numbers, lowercase, uppercase, specialCharacters";
 } 
 
 // Write password to the #password input
