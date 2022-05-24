@@ -71,5 +71,5 @@ function generatePassword() {
     //passwordCharacters.push(String.fromCharCode(characterCode));
     //console.log(characterCode);
   }
-  return ('');
+  return password;
 } 
