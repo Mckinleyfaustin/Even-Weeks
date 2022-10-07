@@ -2,7 +2,7 @@
 
 The Password Generator is a web application that allows you to generate a password from 8 to 128 characters. You can choose if you want lowercase or not and if you want to add special characters.
 
-Try it [here](https://fantasy-football-draft-app.herokuapp.com/)
+Try it [here](https://mckinleyfaustin.github.io/The-Password-Generator/)
 
 
 ## 🧐 Table of Contents
