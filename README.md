@@ -1,26 +1,90 @@
-# Password Generator Starter Code
+# Welcome to Fantasy Football
 
-# Table of Contents
-list any Major Frameworks
-About The Project
+The Password Generator is a web application that allows you to generate a password from 8 to 128 characters. You can choose if you want lowercase or not and if you want to add special characters.
 
-# List any Major Frameworks
-index.html
-script.js
-style.css
+Try it [here](https://fantasy-football-draft-app.herokuapp.com/)
 
-# About The Project
-I am assigned to create an application that an employee can use to generate a random password based on criteria they’ve selected. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes. This week’s coursework will teach you all the skills you need to succeed in this assignment.
 
-The password can include special characters.
+## 🧐 Table of Contents
 
-Contact
-McKinley Faustin - mckinleyfaustin@gmail.com
+- Demo
 
-Project Link: https://github.com/u276875/Even-Weeks/edit/main
+- The Requirements
 
-Helpful Tools
-GitHub Emoji Cheat Sheet
-GitHub Pages
-Font Awesome
-React Icons
+- User Story
+
+- Installation Steps
+
+- Authors
+
+- Credits
+
+- Technologies Used
+
+## 🚀 Demo
+
+[Deployed App](https://fantasy-football-draft-app.herokuapp.com/)
+
+![screenshot](assets/Screenshot1.JPG)
+
+
+## The Requirements
+- Use React for the front end.
+- Use GraphQL with a Node.js and Express.js server.
+- Use MongoDB and the Mongoose ODM for the database.
+- Use queries and mutations for retrieving, adding, updating, and deleting data.
+- Be deployed using Heroku (with data).
+- Have both GET and Post routes for retrieving and adding new data.
+- Have a polished UI.
+- Be responsive.
+- Be interactive (i.e., accept and respond to user input).
+- Include authentication (JWT).
+- Protect sensitive API key information on the server.
+- Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class and id naming conventions, indentation, quality comments, etc.).
+- Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
+
+## User Story
+User Story:
+AS A football fanatic I WANT to play a game amongst friends, associates, or even meet new friends while competing with their knowledge of the game SO THAT I enjoy NFL sunday’s even when my team sucks.
+
+GIVEN a team with 15 spots, I will draft players by using the search input in my dashboard. WHEN I am presented with various players of different positions, I can choose and  add them to my team. WHEN my team roster is full I can drop players and pick up new  players. 
+
+
+## 🛠️ Installation Steps
+The project was uploaded to GitHub at the following [repository] (https://github.com/MosNes/fantasy-football-draft.git)
+
+To install the project follow these steps:
+
+1. Clone the application from GitHub with (git clone https://github.com/MosNes/fantasy-football-draft.git) From the root folder.
+1. npm install
+1. Run the app with node server.js
+
+## 🌟 Authors
+- Cody Cooper
+- Dejuan Strong
+- Mackenzie Abe
+- McKinley Faustin
+- Moses Nester
+
+## 💻 Credits
+- Moses Nester
+  - Front-end scripting & Back-end scripting
+- Mackenzie Abe
+  - Front-end scripting & Presentation 
+- Dejuan Strong
+  - Assets builder & Presentation
+- Cody Cooper
+  - Front-end scripting & requirement keeper
+- McKinley Faustin
+  - Front-end scripting, README, and Presentation 
+
+
+## 🍰 Technologies Used
+- REACT
+- JavaScript
+- MongoDB
+- Node.js
+- GraphQL
+- JWT authentication
+- Heroku
+- Github
